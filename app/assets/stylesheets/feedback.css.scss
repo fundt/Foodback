@@ -1,0 +1,34 @@
+// Place all the styles related to the feedback controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#overdiv{
+	width: 100%;
+	overflow: hidden;
+}
+#leftdiv{
+	width: 600px;
+	float: left;
+}
+#rightdiv{
+	margin-left: 620px;
+}
+.happy, .sad{
+	width: 450px;
+	height: 450px;
+	border-radius: 225px;
+	-webkit-filter: invert(100%); filter: invert(100%);
+	text-align: center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.happy{
+	background: url(smile.png) no-repeat;
+}
+.sad{
+	background: url(frown.png) no-repeat;
+}
+
+.faces{
+	margin-left:40px;
+}

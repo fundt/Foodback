@@ -1,0 +1,110 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require foundation_and_overrides
+
+ */
+
+@font-face {
+    font-family: bannerFont;
+    src: url(../assets/MANIFESTO.ttf);
+}
+
+body{
+  background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(turquoise, midnightblue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(turquoise, fuchsia); /* Standard syntax */
+  font-family: Manifesto, Verdana, Geneva, sans-serif;
+  background-image: url(wood.jpg);
+  color:snow;
+}
+
+h1,h3{
+	color:snow;
+	text-align: center;
+}
+#header{
+	background-image: url(bg.jpg);
+	background-size: 100%;
+	border: 5px solid black;
+	height: 150px;
+}
+#duckdiv{
+	background-image: url(duck.png);
+	height: 150px;
+	width: 150px;
+	background-size: 150px 150px;
+}
+
+.leftpb{
+	height: 45px;
+	background-size: 225px 75px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	border-right-style: solid;
+	border-color: dimgray;
+}
+.centerpb{
+	height: 45px;
+	background-size: 225px 75px;
+	background-repeat: no-repeat;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-color: dimgray;
+}
+
+.rightpb{
+	height: 45px;
+	background-size: 225px 75px;
+	background-repeat: no-repeat;
+	border-left-style: solid;
+	border-color: dimgray;
+}
+
+.rus{
+	background-image: url(RIGHT.png);
+}
+.rs{
+	background-image: url(RIGHTselected.png);
+}
+.lus{
+	background-image: url(LEFT.png);
+}
+.ls{
+	background-image: url(LEFTselected.png);
+}
+.mus{
+	background-image: url(MIDDLE.png);
+}
+.ms{
+	background-image: url(MIDDLEselected.png);
+}
+#footer{
+    position: fixed;
+    bottom: 25px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+#buttondiv{
+    position: fixed;
+    bottom: 100px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+.button{
+	background-color: skyblue;
+}
