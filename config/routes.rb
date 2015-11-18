@@ -5,7 +5,9 @@ Rails.application.routes.draw do
 
   get 'feedback/quantity'
 
-  get 'feedback/descriptors'
+  get 'feedback/descriptor1'
+
+  get 'feedback/descriptor2'
 
   get 'feedback/vote'
 
