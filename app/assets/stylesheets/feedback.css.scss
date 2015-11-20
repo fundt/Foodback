@@ -32,3 +32,28 @@
 .faces{
 	margin-left:40px;
 }
+
+.plate {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 400px;
+   height: 400px;
+   margin-top: -275px; /* Half the height */
+   margin-left: -195px; /* Half the width */
+}
+
+.round-icon {
+  background-color: lightsalmon;
+  border-radius: 50%;
+  display: table;
+  height: 80px;
+  margin: 15px auto 1rem;
+  width: 80px;
+  font-size: 15px;
+  .food-item{
+  	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
